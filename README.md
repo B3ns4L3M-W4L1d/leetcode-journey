@@ -1,0 +1,1 @@
+https://capsule-render.vercel.app/api?type=rounded&height=250&color=1A1A1A&text=LeetCode%20Journey&reversal=false&textBg=false&fontAlign=50&animation=fadeIn&fontColor=FFFFFF
