@@ -2,6 +2,8 @@
 
 <div align="center">
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=973+probl%C3%A8mes+%E2%80%A2+C+%2B+C%2B%2B+%2B+Python;NeetCode+All+%E2%80%94+la+liste+compl%C3%A8te;Un+probl%C3%A8me+par+jour%2C+expliqu%C3%A9+en+d%C3%A9tail)
+
 Résolution quotidienne d'exercices LeetCode en **C**, **C++** et **Python**, organisée selon la [🗺️ roadmap thématique NeetCode](https://neetcode.io/roadmap).
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
@@ -18,6 +20,8 @@ Résolution quotidienne d'exercices LeetCode en **C**, **C++** et **Python**, or
 Un exercice par jour, résolu dans les **3 langages**, avec un README expliquant :
 - L'approche utilisée
 - L'explication de la logique et du code
+
+> 🚫 **Pas d'IA pour résoudre les exercices** — c'est fait exprès, sinon ça n'a aucun intérêt et je n'apprendrais rien.
 
 ---
 
