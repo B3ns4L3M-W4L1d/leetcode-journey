@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=973+probl%C3%A8mes+%E2%80%A2+C+%2B+C%2B%2B+%2B+Python;NeetCode+All+%E2%80%94+la+liste+compl%C3%A8te;Un+probl%C3%A8me+par+jour%2C+expliqu%C3%A9+en+d%C3%A9tail)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=973+problems+%E2%80%A2+C+%2B+C%2B%2B+%2B+Python;NeetCode+All+%E2%80%94+the+full+list;One+problem+per+day%2C+explained+in+detail)
 
-Résolution quotidienne d'exercices LeetCode en **C**, **C++** et **Python**, organisée selon la [🗺️ roadmap thématique NeetCode](https://neetcode.io/roadmap).
+Daily LeetCode practice in **C**, **C++** and **Python**, organized following the [🗺️ NeetCode thematic roadmap](https://neetcode.io/roadmap).
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -15,21 +15,21 @@ Résolution quotidienne d'exercices LeetCode en **C**, **C++** et **Python**, or
 
 ---
 
-## 🎯 Règle du jeu
+## 🎯 Goal
 
-Un exercice par jour, résolu dans les **3 langages**, avec un README expliquant :
-- L'approche utilisée
-- L'explication de la logique et du code
+One problem per day, solved in all **3 languages**, with a README explaining:
+- The approach used
+- The logic and code explanation
 
-> 🚫 **Pas d'IA pour résoudre les exercices** — c'est fait exprès, sinon ça n'a aucun intérêt et je n'apprendrais rien.
+> 🚫 **No AI to solve the problems** — intentional. Using AI would defeat the purpose and I wouldn't learn anything.
 
 ---
 
-## 📊 Progression globale — NeetCode All (973 problèmes)
+## 📊 Global Progress — NeetCode All (973 problems)
 
-| Thème | Résolu | Statut |
+| Topic | Solved | Status |
 |---|---|---|
-| 01 - Arrays & Hashing | 0/175 | ⬜ |
+| 01 - Arrays & Hashing | 1/175 | 🟨 |
 | 02 - Two Pointers | 0/43 | ⬜ |
 | 03 - Sliding Window | 0/41 | ⬜ |
 | 04 - Stack | 0/39 | ⬜ |
@@ -47,76 +47,76 @@ Un exercice par jour, résolu dans les **3 langages**, avec un README expliquant
 | 16 - Intervals | 0/21 | ⬜ |
 | 17 - Math & Geometry | 0/63 | ⬜ |
 | 18 - Bit Manipulation | 0/31 | ⬜ |
-| **Total** | **0/973** | |
+| **Total** | **1/973** | |
 
-> 📌 Chiffres basés sur la liste [NeetCode All](https://neetcode.io/practice/practice/allNC) (tous les problèmes traités par NeetCode sur YouTube). L'ordre des thèmes suit la roadmap officielle.
+> 📌 Based on the [NeetCode All](https://neetcode.io/practice/practice/allNC) list (all problems covered by NeetCode on YouTube). Topic order follows the official roadmap.
 
 ---
 
-## 🗂️ Organisation par thème
+## 🗂️ Problems by Topic
 
 ### 01 - Arrays & Hashing
-_Aucun exercice résolu pour l'instant_
+- [x] [1929 - Concatenation of Array](./01-Arrays-Hashing/1929-Concatenation-of-Array)
 
 ### 02 - Two Pointers
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 03 - Sliding Window
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 04 - Stack
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 05 - Binary Search
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 06 - Linked List
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 07 - Trees
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 08 - Heap / Priority Queue
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 09 - Backtracking
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 10 - Tries
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 11 - Graphs
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 12 - Advanced Graphs
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 13 - 1-D Dynamic Programming
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 14 - 2-D Dynamic Programming
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 15 - Greedy
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 16 - Intervals
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 17 - Math & Geometry
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ### 18 - Bit Manipulation
-_Aucun exercice résolu pour l'instant_
+_No problem solved yet_
 
 ---
 
-## 📁 Structure du repo
+## 📁 Repo Structure
 
 ```
 leetcode-journey/
 ├── 01-arrays-hashing/
-│   └── 0001-two-sum/
+│   └── 1929-concatenation-of-array/
 │       ├── README.md
 │       ├── solution.c
 │       ├── solution.cpp
