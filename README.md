@@ -29,7 +29,7 @@ One problem per day, solved in all **3 languages**, with a README explaining:
 
 | Topic | Solved | Status |
 |---|---|---|
-| 01 - Arrays & Hashing | 1/175 | 🟨 |
+| 01 - Arrays & Hashing | 2/175 | 🟨 |
 | 02 - Two Pointers | 0/43 | ⬜ |
 | 03 - Sliding Window | 0/41 | ⬜ |
 | 04 - Stack | 0/39 | ⬜ |
@@ -57,6 +57,7 @@ One problem per day, solved in all **3 languages**, with a README explaining:
 
 ### 01 - Arrays & Hashing
 - [x] [1929 - Concatenation of Array](./01-Arrays-Hashing/1929-Concatenation-of-Array)
+- [x] [217 - Contains Duplicate](./01-Arrays-Hashing/217-Contains-Duplicate)
 
 ### 02 - Two Pointers
 _No problem solved yet_
