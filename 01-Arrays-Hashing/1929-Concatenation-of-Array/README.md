@@ -194,11 +194,3 @@ impl Solution {
 - `numbers` on the last line, **without a semicolon** — in Rust, the last expression of a function is its return value.
 
 ---
-
-## ⏱️ Complexity
-
-| | Time | Space |
-|---|---|---|
-| All solutions | O(n) | O(n) |
-
-We visit each element twice (O(n)) and build a new array of size `2n` (O(n) extra space).
