@@ -61,7 +61,7 @@ Each problem is solved in **C, C++ and Python**, with **JavaScript, TypeScript a
 
 | Problem | C | C++ | Python | JS | TS | Rust |
 |---|---|---|---|---|---|---|
-| 1929 - Concatenation of Array | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| 1929 - Concatenation of Array | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 217 - Contains Duplicate | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
 | 242 - Valid Anagram | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
 | 49 - Group Anagrams | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
