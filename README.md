@@ -2,13 +2,16 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=973+problems+%E2%80%A2+C+%2B+C%2B%2B+%2B+Python;NeetCode+All+%E2%80%94+the+full+list;Each+problem+explained+in+detail)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=973+problems+%E2%80%A2+6+languages;C+%E2%80%A2+C%2B%2B+%E2%80%A2+Python+%E2%80%A2+JS+%E2%80%A2+TS+%E2%80%A2+Rust;NeetCode+All+%E2%80%94+the+full+list;Each+problem+explained+in+detail)
 
-LeetCode practice in **C**, **C++** and **Python**, organized following the [🗺️ NeetCode thematic roadmap](https://neetcode.io/roadmap).
+LeetCode practice in **C**, **C++**, **Python**, **JavaScript**, **TypeScript** and **Rust**, organized following the [🗺️ NeetCode thematic roadmap](https://neetcode.io/roadmap).
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 [![NeetCode Roadmap](https://img.shields.io/badge/NeetCode-Roadmap-A78BFA?style=for-the-badge&logo=leetcode&logoColor=white)](https://neetcode.io/roadmap)
 
 </div>
@@ -17,11 +20,12 @@ LeetCode practice in **C**, **C++** and **Python**, organized following the [�
 
 ## 🎯 Goal
 
-Each problem is solved in all **3 languages**, with a README explaining:
+Each problem is solved in **C, C++ and Python**, with **JavaScript, TypeScript and Rust** added progressively. Each problem has a README explaining:
 - The approach used
 - The logic and code explanation
+- The time and space complexity
 
-> 🚫 **No AI to solve the problems** — intentional. Using AI would defeat the purpose and I wouldn't learn anything.
+> 🚫 **No AI-generated solutions** — I write every solution myself. Hints and concepts are fine; copying answers would defeat the purpose and I wouldn't learn anything.
 
 ---
 
@@ -50,6 +54,17 @@ Each problem is solved in all **3 languages**, with a README explaining:
 | **Total** | **4/973** | |
 
 > 📌 Based on the [NeetCode All](https://neetcode.io/practice/practice/allNC) list (all problems covered by NeetCode on YouTube). Topic order follows the official roadmap.
+
+---
+
+## 🌐 Language Coverage
+
+| Problem | C | C++ | Python | JS | TS | Rust |
+|---|---|---|---|---|---|---|
+| 1929 - Concatenation of Array | ✅ | ✅ | ✅ | ✅ | ⬜ | ⬜ |
+| 217 - Contains Duplicate | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| 242 - Valid Anagram | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| 49 - Group Anagrams | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
 
 ---
 
@@ -123,7 +138,10 @@ leetcode-journey/
 │       ├── README.md
 │       ├── solution.c
 │       ├── solution.cpp
-│       └── solution.py
+│       ├── solution.py
+│       ├── solution.js
+│       ├── solution.ts
+│       └── solution.rs
 ├── 02-Two-Pointers/
 ├── 03-Sliding-Window/
 ├── 04-Stack/
