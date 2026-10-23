@@ -63,7 +63,7 @@ Each problem is solved in **C, C++ and Python**, with **JavaScript, TypeScript a
 |---|---|---|---|---|---|---|
 | 1929 - Concatenation of Array | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 217 - Contains Duplicate | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
-| 242 - Valid Anagram | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
+| 242 - Valid Anagram | ✅ | ✅ | ✅ | ✅ | ✅ | ⬜ |
 | 49 - Group Anagrams | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ |
 
 ---
