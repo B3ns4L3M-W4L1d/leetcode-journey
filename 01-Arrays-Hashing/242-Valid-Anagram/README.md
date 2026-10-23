@@ -158,13 +158,3 @@ function isAnagram(s: string, t: string): boolean {
 - The comparison `sortedS === sortedT` is already a boolean, so it is returned directly without an `if/else`.
 
 ---
-
-## ⏱️ Complexity
-
-| Solution | Time | Space |
-|---|---|---|
-| C / C++ (letter counting) | O(n) | O(1) |
-| Python / JavaScript / TypeScript (sorting) | O(n log n) | O(n) |
-
-- **Counting** — one pass over each string, plus a fixed array of 26 counters, so the extra space does not depend on the input size.
-- **Sorting** — sorting costs O(n log n), and building the arrays of characters costs O(n) extra space.
