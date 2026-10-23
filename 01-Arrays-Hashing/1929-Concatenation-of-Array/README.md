@@ -106,3 +106,91 @@ class Solution:
 - `return ans` — return the concatenated list.
 
 ---
+
+## 🟨 Solution JavaScript
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var getConcatenation = function(nums) {
+
+    const array = [];
+    let n = nums.length;
+
+    for (let i = 0; i < n; i++){
+        array[i] = nums[i];
+    }
+    for (let i = 0; i < n; i++){
+        array[i + n] = nums[i];
+    }
+
+    return array;
+};
+```
+
+**Explanation:**
+- `const array = []` — create an empty array. In JS, writing at an index beyond the current length simply grows the array, so no pre-allocation is needed.
+- `let n = nums.length` — store the length **once** before the loops. Using `array.length` inside the second loop would be a bug, because it changes every time we write to `array`.
+- First loop — copy each element into the first half (`array[i]`).
+- Second loop — copy each element again, shifted by `n` (`array[i + n]`), to fill the second half.
+- Careful with typos like `nums.lenght`: JS does not throw an error, it returns `undefined`, so the loop silently never runs.
+
+---
+
+## 🔷 Solution TypeScript
+
+```typescript
+function getConcatenation(nums: number[]): number[] {
+
+    const array: number[] = [];
+
+    let n = nums.length;
+
+    for (let i = 0; i < n; i++){
+        array[i] = nums[i];
+    }
+    for (let i = 0; i < n; i++){
+        array[i + n] = nums[i];
+    }
+
+    return array;
+
+};
+```
+
+**Explanation:**
+- Same logic as the JavaScript version, with explicit types: `nums: number[]` for the input and `: number[]` for the return value.
+- `const array: number[] = []` — typed empty array. TypeScript would reject any value that is not a number.
+- The typing catches mistakes at compile time: a typo like `nums.lenght` is reported immediately ("Property does not exist on type `number[]`") instead of failing silently like in JS.
+
+---
+
+## 🦀 Solution Rust
+
+```rust
+impl Solution {
+    pub fn get_concatenation(nums: Vec<i32>) -> Vec<i32> {
+        let mut numbers: Vec<i32> = vec![];
+        let n = nums.len();
+
+        for i in 0..n {
+            numbers.push(nums[i])
+        }
+        for i in 0..n {
+            numbers.push(nums[i])
+        }
+        numbers
+    }
+}
+```
+
+**Explanation:**
+- `let mut numbers: Vec<i32> = vec![]` — a growable vector. `mut` is required because we modify it with `push`.
+- `nums.len()` — in Rust `len` is a **method** (with parentheses), and it returns a `usize`, the type used for indexes.
+- `push` instead of `numbers[i] = ...` — indexing a `Vec` never grows it: writing at an index that does not exist makes the program panic. `push` appends at the end, so the second loop naturally fills the second half, with no `i + n` needed.
+- `for i in 0..n` — the range is exclusive on the right (`0` to `n - 1`).
+- `numbers` on the last line, **without a semicolon** — in Rust, the last expression of a function is its return value.
+
+---
