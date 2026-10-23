@@ -116,3 +116,55 @@ class Solution:
 - This is the most concise approach in Python, but less efficient than the alphabet array method since sorting is O(n log n) vs O(n).
 
 ---
+
+## 🟨 Solution JavaScript
+
+```javascript
+var isAnagram = function(s, t) {
+    var string1 = s.split("").sort().join(""),
+        string2 = t.split("").sort().join("");
+    if (string1 === string2){
+        return true;
+    } else {
+        return false;
+    }
+}
+```
+
+**Explanation:**
+- `s.split("")` — a string has no `.sort()` method, so we first turn it into an array of characters.
+- `.sort()` — sort the characters alphabetically. The default sort compares elements as strings, which is fine here because the input only contains lowercase letters.
+- `.join("")` — turn the sorted array back into a string.
+- Two anagrams always give the same sorted string, so we compare them with `===`.
+- We compare the **strings**, not the arrays: in JS, `==` on two arrays compares references, so it would always be `false`.
+
+---
+
+## 🔷 Solution TypeScript
+
+```typescript
+function isAnagram(s: string, t: string): boolean {
+
+    const sortedS = s.split("").sort().join("");
+    const sortedT = t.split("").sort().join("");
+
+    return sortedS === sortedT;
+};
+```
+
+**Explanation:**
+- Same approach as the JavaScript version, with explicit types: `s: string`, `t: string` and a `boolean` return type.
+- `const` is used because the sorted strings never change.
+- The comparison `sortedS === sortedT` is already a boolean, so it is returned directly without an `if/else`.
+
+---
+
+## ⏱️ Complexity
+
+| Solution | Time | Space |
+|---|---|---|
+| C / C++ (letter counting) | O(n) | O(1) |
+| Python / JavaScript / TypeScript (sorting) | O(n log n) | O(n) |
+
+- **Counting** — one pass over each string, plus a fixed array of 26 counters, so the extra space does not depend on the input size.
+- **Sorting** — sorting costs O(n log n), and building the arrays of characters costs O(n) extra space.
